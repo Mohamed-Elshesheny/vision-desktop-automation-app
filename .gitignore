@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual envs / uv
+.venv/
+
+# Environment / secrets
+.env
+
+# Tooling caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Runtime output (screenshots, templates, annotations)
+output/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local-only design notes (not published)
+docs/DISCUSSION.md
+docs/LAYERS_AND_FALLBACKS.md
